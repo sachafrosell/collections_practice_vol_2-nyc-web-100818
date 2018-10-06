@@ -60,7 +60,7 @@ def count_elements(array)
      end
    end
   end
- puts array_of_hashes
+ return array_of_hashes
 end
 
 count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])
