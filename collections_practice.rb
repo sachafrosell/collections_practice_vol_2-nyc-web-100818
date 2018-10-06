@@ -69,6 +69,7 @@ def merge_data(keys, data)
   
   keys.each do |hash|
     hash.each do |key, value|
+      data.each do |
       sub_hash = {}
       sub_hash[:first_name] = value
       sub_hash[:awesomeness] = 
