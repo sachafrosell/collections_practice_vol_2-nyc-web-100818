@@ -63,15 +63,7 @@ def count_elements(array)
  return array_of_hashes
 end
 
-count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])
 
-#  describe '#count_elements' do
-#
-#    # Question 5
-#
-#    it 'count how many times something appears in an array' do
-#      expect(count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])).to eq([{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}])
-#    end
 
 
 
