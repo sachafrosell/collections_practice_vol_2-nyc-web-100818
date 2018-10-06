@@ -63,7 +63,19 @@ def count_elements(array)
  return array_of_hashes
 end
 
+def merge_data
+  
+end
 
+#  describe '#merge_data' do
+#
+#    # Question 6
+#
+#    it 'combines two nested data structures into one' do
+#      expect(merge_data(keys, data)).to eq(merged_data)
+#    end
+#
+#  end
 
 
 
