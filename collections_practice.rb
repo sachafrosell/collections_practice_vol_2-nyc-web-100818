@@ -64,20 +64,54 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
+  array_merged = []
   
   
 end
 
 
-#  describe '#merge_data' do
-#
-#    # Question 6
-#
-#    it 'combines two nested data structures into one' do
-#      expect(merge_data(keys, data)).to eq(merged_data)
-#    end
-#
-#  end
+ let(:keys) {
+    [
+           {
+            :first_name => "blake"
+        },
+           {
+            :first_name => "ashley"
+        }
+    ]
+  }
 
+  let(:data) {
+    [
+           {
+             "blake" => {
+                :awesomeness => 10,
+                     :height => "74",
+                  :last_name => "johnson"
+            },
+            "ashley" => {
+                :awesomeness => 9,
+                     :height => 60,
+                  :last_name => "dubs"
+            }
+        }
+    ]
+  }
 
+  let(:merged_data) {
+    [
+           {
+             :first_name => "blake",
+            :awesomeness => 10,
+                 :height => "74",
+              :last_name => "johnson"
+        },
+           {
+             :first_name => "ashley",
+            :awesomeness => 9,
+                 :height => 60,
+              :last_name => "dubs"
+        }
+    ]
+  }
 
