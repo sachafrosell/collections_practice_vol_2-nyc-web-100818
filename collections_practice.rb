@@ -65,12 +65,13 @@ end
 
 def merge_data(keys, data)
   array_merged = []
-  sub_hash = {}
+  
   
   keys.each do |hash|
     hash.each do |key, value|
-      sub_hash[]
-       
+      sub_hash = {}
+      sub_hash[:first_name] = value
+      sub_hash[:awesomeness] = 
     end
   end
 end
