@@ -65,38 +65,15 @@ end
 
 def merge_data(keys, data)
   array_merged = []
+  sub_hash = {}
   
   keys.each do |hash|
     hash.each do |key, value|
-      binding.pry
+       
     end
   end
 end
-merge_data({
-    [
-           {
-            :first_name => "blake"
-        },
-           {
-            :first_name => "ashley"
-        }
-    ]
-  }, {
-    [
-           {
-             "blake" => {
-                :awesomeness => 10,
-                     :height => "74",
-                  :last_name => "johnson"
-            },
-            "ashley" => {
-                :awesomeness => 9,
-                     :height => 60,
-                  :last_name => "dubs"
-            }
-        }
-    ]
-  })
+
 
 keys = {
     [
