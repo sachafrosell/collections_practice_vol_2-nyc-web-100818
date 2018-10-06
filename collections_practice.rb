@@ -66,9 +66,13 @@ end
 def merge_data(keys, data)
   array_merged = []
   
-  
+  keys.each do |hash|
+    hash.each do |key, value|
+      binding.pry
+    end
+  end
 end
-
+merge_data(keys, data)
 
  let(:keys) {
     [
