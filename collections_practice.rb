@@ -63,7 +63,8 @@ def count_elements(array)
  return array_of_hashes
 end
 
-def merge_data
+def merge_data(keys, data)
+  
   
 end
 
