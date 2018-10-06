@@ -74,7 +74,7 @@ def merge_data(keys, data)
 end
 merge_data(keys, data)
 
- let(:keys) {
+keys = {
     [
            {
             :first_name => "blake"
@@ -85,7 +85,7 @@ merge_data(keys, data)
     ]
   }
 
-  let(:data) {
+data = {
     [
            {
              "blake" => {
